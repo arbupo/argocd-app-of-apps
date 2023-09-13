@@ -8,7 +8,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    repoURL: https://github.com/mehmetmgrsl/argocd-app-of-apps
+    repoURL: https://github.com/mehmetmgrsl/argocd-app-of-apps.git
     path: ./manifests/app3
     targetRevision: main
   syncPolicy:
