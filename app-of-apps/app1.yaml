@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/mehmetmgrsl/argocd-app-of-apps
-    path: manifests/app1
+    path: ./manifests/app1
     targetRevision: main
   syncPolicy:
     automated:
