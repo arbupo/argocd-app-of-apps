@@ -9,6 +9,9 @@
 
 ![App of Apps Pattern](app_of_apps.png)
 
+### Test
+
+```kubectl apply -f app_of_apps.yaml```
 
 ### Resources
 1. https://github.com/mehmetmgrsl/example-argocd-config
