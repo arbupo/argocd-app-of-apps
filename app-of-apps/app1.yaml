@@ -12,6 +12,8 @@ spec:
     path: ./manifests/app1
     targetRevision: main
   syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
     automated:
       prune: true
       selfHeal: true
