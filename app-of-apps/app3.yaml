@@ -8,6 +8,7 @@ metadata:
 spec:
   destination:
     server: https://kubernetes.default.svc
+    namespace: dev
   project: default
   source:
     repoURL: https://github.com/mehmetmgrsl/argocd-app-of-apps.git
