@@ -1,17 +1,21 @@
-# WIP
-
-### Precondition
+### 1. Precondition
 
 1. Kubernetes Cluster
 2. ArgoCD installation (1*)
 
-### App of Apps Pattern
+### 2. App of Apps Pattern
 
 ![App of Apps Pattern](app_of_apps.png)
 
-### Test
+### 3. Test
 
 ```kubectl apply -f app_of_apps.yaml```
+
+#### 3.1 Applications
+![Applications](applications.png)
+
+#### 3.2 Root App
+![Root App](root-app.png)
 
 ### Resources
 1. https://github.com/mehmetmgrsl/example-argocd-config
