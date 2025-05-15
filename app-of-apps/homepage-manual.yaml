@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: homepage-manual
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/arbupo/argocd-app-of-apps.git
+    path: ./manifests/homepage
+    targetRevision: main
+  destination:
+    server: 'https://kubernetes.default.svc'
+    namespace: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
