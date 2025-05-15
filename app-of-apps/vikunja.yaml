@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/truecharts/public.git
-    targetRevision: main
+    targetRevision: master
     path: charts/stable/vikunja
   destination:
     server: https://kubernetes.default.svc
