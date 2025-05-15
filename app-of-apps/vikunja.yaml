@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://kolaente.dev/vikunja/helm-chart.git
+    repoURL: https://github.com/truecharts/public.git
     targetRevision: main
-    path: .
+    path: charts/stable/vikunja
   destination:
     server: https://kubernetes.default.svc
     namespace: default
