@@ -21,3 +21,11 @@
 1. https://github.com/mehmetmgrsl/example-argocd-config
 2. https://kodekloud.com/courses/argocd/
 3. https://medium.com/dzerolabs/turbocharge-argocd-with-app-of-apps-pattern-and-kustomized-helm-ea4993190e7c
+
+
+#### FastApi App
+
+```
+kubectl get svc --all-namespaces | grep fastapi //get exposed port
+kubectl port-forward svc/fastapi-app -n default 8000:80
+```
